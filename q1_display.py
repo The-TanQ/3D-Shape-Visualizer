@@ -111,7 +111,7 @@ def main():
 
     current_shape = 0   # Index of the current shape
     translation = [0, 0, 0]   # Translation values for x, y, z(question 2)
-    rotation = [0, 0, 0] # Rotation values for x, y, z (question 3)
+    rotation = [0, 0, 0] # Rotation values foraa, z (question 3)
     continuous_rotation = True  # Flag for continuous rotation (question 3)
     scale = [1, 1, 1]  # Scale values for x, y, z (question 4)
 
@@ -169,9 +169,9 @@ def main():
                     scale[2] *= 0.9
 
         if continuous_rotation:            # Question 3: Continuous rotation
-          rotation[0] += 0.5  # Slow rotation around X-axis
-          rotation[1] += 0.5  # Slow rotation around Y-axis
-          rotation[2] += 0.5  # Slow rotation around Z-axis
+            rotation[0] += 0.5  # Slow rotation around X-axis
+            rotation[1] += 0.5  # Slow rotation around Y-axis
+            rotation[2] += 0.5  # Slow rotation around Z-axis
 
         glLoadIdentity()
         gluPerspective(45, display[0] / display[1], 0.1, 50.0)

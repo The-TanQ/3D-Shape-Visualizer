@@ -1,7 +1,4 @@
-# ITGDA Project by Tisetso Shai
-
-ITGDA4-14 
-STUDENT NUMBER: EDUV8887505
+# 3D Shape Visualizer
 
 This projet is a 3D shape renderer that allows users to manipulate basic 3D models (Cube, Pyramid, and Prism) with different transformations like translation, rotation, scaling, and coloring. The shapes have colorful faces with white edges.
 
